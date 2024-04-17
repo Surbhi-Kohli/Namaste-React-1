@@ -100,3 +100,7 @@ element:<About/>
 
 })
 ```
+
+Imagine u land in a route which is not configured, then the react-router-dom will handle that scenario   
+<img width="871" alt="Screenshot 2024-04-17 at 8 07 10 PM" src="https://github.com/Surbhi-Kohli/Namaste-React-1/assets/32058209/df9bbcdc-bd3f-46b2-9e56-d9eafb21cb8f">
+
