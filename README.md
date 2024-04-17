@@ -81,3 +81,22 @@ root.render(<RouterProvider router = {appRouter}/>);
 - **<Link> is a wrapper over anchor tag**. It tells the **router-dom not to reload the entire page when that path is visited.**
 - If we see in the Elements tab, we won't see <Link/>, we will see `<a></a>` tag. **This proves that behind the scenes <Link/> uses anchor tag.**
 - It makes our React App really **fast and performant.**
+
+
+### Lecture Notes:
+Why we need a configuration router ? whenever we create routes, we need to have routing configurations.Configuration defines what should happen on a specific route.
+createBrowserRouter takes a list of paths and based on the paths, a particular component is loaded
+```
+const appRouter = createBrowserRouter({
+{
+path:"/",
+element:<Header/>
+},
+{
+path:"/about",
+element:<About/>
+}
+
+
+})
+```
